@@ -1,0 +1,50 @@
+* 
+body 
+
+    {
+        background-image: url("https://mobimg.b-cdn.net/v3/fetch/14/144c17aab69d0f7062f54c986861a6e7.jpeg");
+        background-image: no-repeat;
+        background-image: fixed;
+        background-image: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        }
+
+
+        p { 
+            font-family:fantasy;    
+            width: 1500px;
+            padding: 10px;
+            margin: 50px;
+            color:aliceblue;
+            font-size: 25px;
+            text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    
+    
+        }
+
+        h2 { 
+            font-family:fantasy;    
+            width: 1500px;
+            padding: 10px;
+            margin: 50px;
+            color:aliceblue;
+            font-size: 25px;
+            text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    
+    
+        }
+
+        form { 
+            font-family:fantasy;    
+            width: 1500px;
+            padding: 10px;
+            margin: 50px;
+            color:aliceblue;
+            font-size: 25px;
+            text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    
+    
+        }

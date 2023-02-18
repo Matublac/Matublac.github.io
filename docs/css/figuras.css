@@ -1,0 +1,32 @@
+
+figcaption {
+    display:none; 
+    transition: all .5s;
+        
+  }
+  
+  figure:hover > figcaption {
+    display:block;
+    transition: all .5s;
+    font-family:fantasy;   
+    color:aliceblue;
+    font-size: 50px;
+    position: fixed;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    
+    
+  }
+
+  div {
+    
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-attachment:fixed 
+    
+        
+    
+       
+  }
+
+  
+
