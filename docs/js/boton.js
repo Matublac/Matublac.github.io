@@ -19,22 +19,25 @@
 
        
 
-         function enviar()
-          
-          {
-            resultado = window.confirm ("¿Estás seguro que deseas activar la batiseñal?")
-           
-           if (resultado===true)
-            { 
-            window.alert ("La batiseñal ha sido activada con éxito")
-            window.location.assign ("./index.html")
-
-                        
-          } else  {  
-                window.location.assign ("./contacto.html")
-            } 
-           
+          function enviar()
+         
+          {  
+            resultado = window.confirm ("¿Estás seguro que deseas activar la batiseñal?");
+              
+              if (resultado===true) {
+  
+                volverinicio();
+  
+                window.alert ("La batiseñal ha sido activada con éxito");
+             
+              } else {
+  
+                contacto();
+  
+              }      
+              
           }
+  
 
  
 

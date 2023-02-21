@@ -7,7 +7,7 @@
   <title>Enviar solicitud</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./css/contacto.css">
-  <link rel="icon" type="image/x-icon" href="./imagenes_pf/Batman_logo.jpg">
+  <link rel="icon" type="image/x-icon" href="./imagenes_pf/Batman_Logo.jpg">
 </head>
 <body>
   
@@ -15,7 +15,7 @@
 
   <div class="charset">
 
-  <form id="form">
+    <form id="form" onsubmit="enviar()">
     <label for="nombre">Nombre:</label><br>
     <input type="text" id="nombre" name="nombre" value="" required><br><br>
     <label for="apellido">Apellido:</label><br>
@@ -27,11 +27,12 @@
     <label for="problema">Breve descripción del problema:</label><br>
     <input type="text" id="problema" name="problema" value="" required minlength="50" maxlength="100"><br><br>   
 
+    <p><button><input type="submit" value="ENVIAR"></button></p>
     
   </form>
 
     
-    <p><button><input type="button" value="ENVIAR" onclick="enviar()"></button></p>
+  
     
     
     
