@@ -48,3 +48,9 @@ body
     
     
         }
+
+        textarea {
+        height: 100px;
+        width: 30%;
+        resize: none;
+        }
